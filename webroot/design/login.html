@@ -3,12 +3,13 @@
 <head>
 
 <!-- /.website title -->
-<title>NexSeed Portal</title>
+<title>Nexseed Portal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="UTF-8">
 
 <!-- CSS Files -->
-<link href="../asset/css/bootstrap.css" rel="stylesheet" media="screen"><link href="../asset/css/font-awesome.css" rel="stylesheet">
+<link href="../asset/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="../asset/css/font-awesome.min.css" rel="stylesheet">
 <link href="../asset/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
 <link href="../asset/css/animate.css" rel="stylesheet" media="screen">
 <link href="../asset/css/owl.theme.css" rel="stylesheet">
@@ -39,20 +40,22 @@
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				</button> -->
-				<a class="navbar-brand site-name" href="#top"><img src="../asset/images/nex.png" alt="logo"></a>
+				<a class="navbar-brand site-name" href="index.html"><img src="../asset/images/nex.png" alt="logo"></a>
 			  </div>
 	 		<!-- NAVIGATION -->
 			  <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
 				<ul class="nav navbar-nav">
 				<li>
-					<div class="btn-section"><a href="join/index.html" button type="button" class="btn-default2">Logout</a></div>
+					<div class="btn-section"><!-- <a href="join/index.html" button type="button" class="btn-default2"> -->　　　</a></div>
 				</li>
 				</ul>
 			  </div>
 		</div>
 	</nav>
 </div>
+<!-- さとしさん担当 -->
 
+<!-- /.preloader -->
 <div id="preloader"></div>
 <div id="top"></div>
 
@@ -65,7 +68,7 @@
 				<div class="col-md-7">
 					<!-- /.main title -->
 						<h1 class="wow fadeInLeft">
-						NexSeed Portal Site<br>New Open!!
+						Nexseed Portal Site<br>New Open!!
 						</h1>
 
 					<!-- /.header paragraph -->
@@ -78,6 +81,29 @@
 						よろしくお願いします！</p>
 					</div>
 
+				</div> 
+				
+				<!-- /.signup form -->
+				<div class="col-md-5">
+				<!-- さとしさん担当 -->
+					<div class="signup-header wow fadeInUp">
+						<h3 class="form-title text-center">Let's HACK!</h3>
+						<form class="form-header" action="index_regist.html" role="form" method="POST" id="#">
+						<input type="hidden" name="u" value="503bdae81fde8612ff4944435">
+						<input type="hidden" name="id" value="bfdba52708">
+							<div class="form-group">
+								<input class="form-control input-lg" name="MERGE1" id="name" type="text" placeholder="Email address" required>
+							</div>
+							<div class="form-group">
+								<input class="form-control input-lg" name="MERGE0" id="email" type="email" placeholder="Password" required>
+							</div>
+							<div class="form-group last">
+								<a href="check.html"><input type="botton" class="btn btn-warning btn-block btn-lg" value="Register" style="margin-left:5px; float:left;"></a>
+ 								<input type="submit" class="btn btn-warning btn-block btn-lg" value="Login" style="margin-left:5px; float:left;">
+							</div>
+						</form>
+					</div>
+				<!-- さとしさん担当終わり -->
 				</div>
 			</div>
 		</div> 
@@ -88,103 +114,8 @@
 
 
 <!-- /.intro section -->
-<div id="intro">
-	<div class="container">
-		<div class="row">
-			<!-- /.intro content -->
-			<form method="post" action="" role="form" name="search">
-				<div class="new-post col-md-6 wow slideInRight">
-					<h2>Let's Post Your Idea!</h2>
-					<div class="download-cta wow fadeInLeft">
-					<a class="btn-secondary" href="add.html">New Post</a>
-					</div>
-				</div>
-				<div class="search col-md-6 wow slideInRight">
-					<h2>Search information</h2>
-					<div class="btn-section dropdown fadeInLeft">
-						<select class="category" name="category">
-							<option value="1">Category</option>
-							<option value="2">レストラン</option>
-							<option value="3">スーパー</option>
-							<option value="4">商業施設</option>
-							<option value="5">レジャー</option>
-						</select>
-						<input type="text" name="search" placeholder="search word" class="form-control input-lg" value="">
-						<input type="submit" class="btn-default" value="Search">
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
 
-<!-- /.feature section -->
-<div id="feature">
-	<div class="container">
-		<div class="text-center">
-			<h2 class="wow fadeInLeft">Latest Post</h2>
-			<div class="title-line wow fadeInRight"></div>
-		</div>
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">	
-			   <div id="owl-testi" class="owl-carousel owl-theme wow fadeInUp">
-					<!-- /.testimonial 1 -->
-					<div class="testi-item">
-						<div class="box">
-							<table class="list">
-								<thead>
-									<tr>
-										<th>Shop</th>
-										<th>Review</th>
-										<th>Comment</th>
-									</tr>
-								</thead>
-								<tbody class="list-body">
-									<tr data-href="show.html">
-										<td data-label="shop">Bo's coffee</td>
-										<td class="review" data-label="review">★★★</td>
-										<td data-label="comment">コーヒーは美味しいけどwifiは普通</td>
-									</tr>
-									<tr data-href="show.html">
-										<td data-label="shop">STARBUCKS COFFEE</td>
-										<td class="review" data-label="review">★★★★★</td>
-										<td data-label="comment">コーヒーは美味しい、wifiは普通、サービスは最高</td>
-									</tr>
-									<tr data-href="show.html">
-										<td data-label="shop">coffee dream</td>
-										<td class="review" data-label="review">★★★★★</td>
-										<td data-label="comment">コーヒーは普通だけどwifiは爆速</td>
-									</tr>
-									<tr data-href="show.html">
-										<td data-label="shop">xxxxxxxx</td>
-										<td data-label="point">★</td>
-										<td data-label="comment">good</td>
-									</tr>
-									<tr data-href="show.html">
-										<td data-label="shop">xxxxxxxx</td>
-										<td data-label="point">★</td>
-										<td data-label="comment">good</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-				<div class="btn-section">
-					<a href="" class="btn-default" style="float:right">次</a>
-					<a href="" class="btn-default" style="float:right">前</a>
-				</div>
-			</div>	
-		</div>
-	</div>
-</div>
-
-<!-- /.testimonial section -->
-<!-- <div id="testi">
-	<div class="container">	
-	</div>
-</div>
- --><!-- /.footer -->
+<!-- /.footer -->
 <footer id="footer">
 	<div class="container">
 		<div class="col-sm-4 col-sm-offset-4">
@@ -195,7 +126,7 @@
 						<li><a class="wow fadeInUp" href="https://www.facebook.com/NexSeed/?ref=br_rs" target="_blank" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
 					</ul>
 				</div>	
-			<div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Nexseed Portal 2016</div>
+			<div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright NexSeed Portal Since 2016</div>
 			<a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
 		</div>	
 	</div>	
@@ -203,7 +134,7 @@
 	
 	<!-- /.javascript files -->
     <script src="../asset/js/jquery.js"></script>
-    <script src="../asset/js/bootstrap.js"></script>
+    <script src="../asset/js/bootstrap.min.js"></script>
     <script src="../asset/js/custom.js"></script>
     <script src="../asset/js/jquery.sticky.js"></script>
 	<script src="../asset/js/wow.min.js"></script>
